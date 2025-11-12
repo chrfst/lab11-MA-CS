@@ -36,21 +36,4 @@ def log(a, b):
     else:
         math.log(b, a)
 def exp(a, b):
-    math.pow(a, b)
-
-
-def add(a, b):
-    return a + b
-
-def sub(a, b):
-    return a - b
-
-def mul(a, b):
-    return a * b
-
-def log(a ,b):
-    if b <= 0:
-        raise ValueError
-    if a < 0 or a == 1:
-        raise ValueError
-    return math.log(b, a)
+    return math.pow(a, b)

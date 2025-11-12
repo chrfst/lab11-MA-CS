@@ -1,3 +1,6 @@
+# https://github.com/chrfst/lab11-MA-CS.git
+# Partner 1: Matas Ambrukaitis
+# Partner 2: Christopher St. John
 import unittest
 from calculator import *
 

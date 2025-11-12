@@ -18,6 +18,8 @@ class TestCalculator(unittest.TestCase):
 
     # ##########################
 
+
+
     ######## Partner 1
     # def test_multiply(self): # 3 assertions
     #     fill in code
@@ -25,6 +27,8 @@ class TestCalculator(unittest.TestCase):
     # def test_divide(self): # 3 assertions
     #     fill in code
     # ##########################
+
+
 
     def test_divide_by_zero(self): # 1 assertion
             with self.assertRaises(ZeroDivisionError):
@@ -38,6 +42,9 @@ class TestCalculator(unittest.TestCase):
          with self.assertRaises(ValueError):
              log(1, 10)
              log(-1, 10)
+
+
+
     
     ######## Partner 1
     # def test_log_invalid_argument(self): # 1 assertion

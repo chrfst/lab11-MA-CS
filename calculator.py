@@ -31,6 +31,6 @@ def log(a, b):
     if a < 0 or a == 1:
         raise ValueError
     else:
-        math.log(b, a)
+        return math.log(b, a)
 def exp(a, b):
     return math.pow(a, b)
